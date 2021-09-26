@@ -1,0 +1,163 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #c8e8e0;
+    margin: 0px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+.bigTitle{
+    display: none;
+}
+
+nav a{
+    text-decoration:none;
+    color: rgb(156, 153, 153);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.loginReg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 120px;
+}
+
+.loginReg a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 20px ;
+    color: #2e937a;
+    margin-top: 5px;
+    
+    
+}
+
+main{
+    background-color: #ffffff;
+    margin: auto;
+    font-family:sans-serif;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.greenS{
+    margin: 0px;
+    background-color:#eff9f6 ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blur{
+    margin-top: 20px;
+    height: 300px;
+    width: 80%; 
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+main h3{
+    letter-spacing: 10px;
+     color: rgb(156, 153, 153); 
+     font-family: 'Righteous', cursive;
+     margin-left: 20px;
+}
+
+main h5{
+    text-align: center;
+    font-size: 25px;
+}
+
+main ul li{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.loginButton{
+    margin-top: 60px;
+    color: white;
+    background-color: #2e937a ;
+    padding: 17px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+::marker{
+    color: #2e937a;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color:#a7ecdb ;
+    text-decoration: none;
+    
+}
+
+.anotherOptions{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
+
+@media(min-width:720px){
+
+    .bigTitle{
+        display: inline-block;
+    }
+
+    nav{
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .loginReg{
+        grid-template-columns: 8fr 1fr;
+        text-align: end;
+    }
+
+    .loginReg a{
+        margin-right: 40px;
+    }
+}
+
+
+
+
+
