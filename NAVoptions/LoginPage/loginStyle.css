@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #c8e8e0;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+
+nav a{
+    text-decoration:none;
+    color: rgb(156, 153, 153);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.loginReg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 120px;
+}
+
+.loginReg a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 20px ;
+    color: #2e937a;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color:#a7ecdb ;
+    text-decoration: none;
+    
+}
+
+.anotherOptions{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+
+main{
+    height: 300px;
+}
+
+fieldset{
+    border: 0px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.field input{
+    width: 70%;
+    height: 25px;
+    
+}
+
+
+button{
+    margin-left: 35%;
+    margin-top: 30px;
+    color: white;
+    background-color: #2e937a ;
+    padding: 17px;
+    font-size: 17px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    
+}
+
+@media(min-width:720px){
+    .field{
+        display: grid;
+        grid-template-columns:  1fr;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .field input{
+        width: 38%;
+        margin: auto;
+    }
+
+    button{
+        margin-left: 46%;
+    }
+}
