@@ -10,34 +10,35 @@
 <body>
     
     <nav>
-        <a href="#">Acasa</a>
+        <a href="../../index.html">Acasa</a>
         <a href="#">Imagini</a>
         <a href="#">Contact</a>
     </nav>
 
     <section class="loginReg">
-        <a href="#">Logare</a>
-        <a href="#">Inregistrare</a>
+        <a href="../LoginPage/login.html">Logare</a>
+        <a href="../RegisterPage/register.html">Inregistrare</a>
     </section>
 
 
-    <header>
-        <h1>Bine ai venit in echipa noastra! </h1>
-    </header>
+    
     <main>
 
-        <form action="/">
         
-            <label for=""></label>
+
+        <form action="/">
+
 
             <fieldset>
 
-                <section class="Nume simpleText">
+                
+
+                <section class="nume simpleText">
                     <label for="">Nume:</label>
                     <input type="text">
                 </section>
 
-                <section class="Prenume simpleText">
+                <section class="prenume simpleText">
                     <label for="">Prenume:</label>
                     <input type="text">
                 </section>
@@ -45,6 +46,11 @@
                 <section class="email simpleText">
                     <label for="">Email:</label>
                     <input type="email">
+                </section>
+
+                <section class="phone simpleText">
+                    <label for="">Phone:</label>
+                    <input type="text">
                 </section>
 
                 <section class="gendre">
@@ -56,25 +62,29 @@
                 </section>
 
 
-                <label for="" class="functiaTitle">Functia:</label>
-
+               
                 <section class="roles">
                     
-                    <section class="functie">
-                        <input type="radio">
-                        <label for="">Admin</label>
-                    </section>
 
-                    <section class="functie">
-                        <input type="radio">
-                        <label for="">Mecanic</label>
-                    </section>
+                    <label for="" class="functiaTitle">Functia:</label>
 
-                    <section class="functie">
-                        <input type="radio">
-                        <label for="">Client</label>
+
+                    <section class="functii">
+                        <section class="functie">
+                            <input type="radio">
+                            <label for="">Admin</label>
+                        </section>
+
+                        <section class="functie">
+                            <input type="radio">
+                            <label for="">Mecanic</label>
+                        </section>
+
+                        <section class="functie">
+                            <input type="radio">
+                            <label for="">Client</label>
+                        </section>
                     </section>
-                    
                 </section>
 
             </fieldset>
@@ -83,7 +93,7 @@
         
         <button type="submit">Inregistrare!</button>
         
-        
+        <label for="" class="anotherLogin">Aveti deja un cont? Logati-va <a href="../LoginPage/login.html">aici</a></label>
         
         </form>
 
