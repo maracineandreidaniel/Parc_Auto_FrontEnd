@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #c8e8e0;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+
+nav a{
+    text-decoration:none;
+    color: rgb(156, 153, 153);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.loginReg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 120px;
+}
+
+.loginReg a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 20px ;
+    color: #2e937a;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color:#a7ecdb ;
+    text-decoration: none;
+    
+}
+
+.anotherOptions{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+
+main{
+    color: rgb(156, 153, 153);
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    box-shadow: 10px 10px #2e937a ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.infos{
+
+    font-size: 25px;
+    text-align: center;
+}
+
+.infos a{
+    color:#2e937a ;
+    text-decoration: none;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.images img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    
+}
